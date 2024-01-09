@@ -1,0 +1,21 @@
+package cons;
+
+// Default Constructor
+class cons {
+    int a; String b;
+    cons()
+    {
+        a=23;
+        b="Manish";
+    }
+    void show(){
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+class hllo{
+    public static void main(String[] args) {
+        cons r =new cons();
+        r.show();
+    }
+}
