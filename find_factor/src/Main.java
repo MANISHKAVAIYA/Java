@@ -16,5 +16,6 @@ public class Main {
         else {
             System.out.printf(cd+" is not factor of ab " +ab);
         }
+        System.out.println("finish Program");
     }
 }
